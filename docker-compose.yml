@@ -1,0 +1,6 @@
+web:
+  build: ./Weather
+  ports:
+   - "5111:5000"
+  volumes:
+   - .:/code
